@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15pt;
+  margin: 0px;
+  padding: 0px;
+}
+
+.backgroundWall {
+  width: 100%;
+  height: 560px;
+  background: url("showcase.jpg");
+  position: absolute;
+}
+
+#input_bar {
+  width: 75%;
+  height: auto;
+  padding: 10px 45px 10px 10px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  position: relative;
+  top: 104px;
+  left: 5%;
+}
+
+::-webkit-input-placeholder {
+  position: absolute;
+  left: 5%;
+}
+
+.btn {
+  background: url("search.jpg");
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 105px;
+  left: 85%;
+}
+
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  background: #7E5BC4;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: -1px;
+}
+
+#set {
+  width: 30px;
+  height: 35px;
+  background: url("InShot_20240410_191934477.png");
+  background-size: cover;
+  position: absolute;
+  border-left: 0.4px solid silver;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  top: 105px;
+  right: 21%;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  left: 20px;
+}
+.word {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  position: absolute;
+  left: 95px;
+  top: 40px;
+  color: #5728B6;
+  text-shadow: 2px 2px 4px #5728B6, -1px -2px 3px #EAE9EC;
+}
+.head {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background: transparent;
+  position: fixed;
+  top: 0px;
+  height: 100px;
+}
+
+iframe{
+    width:100%;
+    position: absolute;
+    top: 150px;
+    height: 90%;
+    display: none;
+    overflow: scroll;
+    background-size: cover;
+    border-radius: 7px;
+    background: white;
+  /*  border-top: 4px groove #3E16CE; */
+    border-left: 2px groove #3E16CE;
+}
+#Pbar{
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+  
+}
+#Pbar::-webkit-progress-bar{
+  background: red;
+}

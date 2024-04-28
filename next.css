@@ -1,0 +1,22 @@
+#input_bar{
+    position: fixed;
+  top: 16px;
+}
+#set{
+  top: 16px;
+    position: fixed;
+
+}
+.btn{
+  top: 16px;
+    position: fixed;
+
+}
+.cover{
+  position: fixed;
+  background: red;
+  box-shadow: 4px 0px 5px black;
+}
+iframe{
+  top: 63px;
+}
