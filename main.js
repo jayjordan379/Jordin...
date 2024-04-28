@@ -19,7 +19,7 @@ function goTo() {
   }
   if (cut == '.com') {
     bar.style.display = 'block'
-    location.href = input;
+    location.href = "http://"+input;
     
   }
 
